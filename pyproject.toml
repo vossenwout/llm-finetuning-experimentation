@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "llm-finetuning"
+version = "0.1.0"
+description = ""
+authors = ["WoutVossen"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+pyarrow = "^16.0.0"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+html2text = "^2024.2.26"
+groq = "^0.6.0"
+python-dotenv = "^1.0.1"
+black = "^24.4.2"
+tenacity = "^8.3.0"
+tqdm = "^4.66.4"
+ollama = "^0.2.0"
+modal = "^0.62.201"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

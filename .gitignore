@@ -1,0 +1,5 @@
+.venv/
+config/.env.secret
+.DS_store
+trained_models/
+__pycache__/
